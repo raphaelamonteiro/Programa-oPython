@@ -9,7 +9,7 @@ if minutos < 200:
     conta = minutos * valor
     print("A conta é de: ", f'R${conta:.2f}')
 
-if minutos <= 200 or minutos < 400:
+if minutos > 200 or minutos <= 400:
     valor = 0.18
     conta = minutos * valor
     print("A conta é de: ", f'R${conta:.2f}')
